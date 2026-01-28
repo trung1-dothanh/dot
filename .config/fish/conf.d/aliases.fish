@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 abbr less "vim -u ~/.vim/less.vim -"
 abbr more "vim -u ~/.vim/less.vim"
 
@@ -9,8 +8,8 @@ abbr hibernate "sudo systemctl hibernate"
 
 # Better alternatives
 abbr cat "bat -p"
-abbr ls exa
-abbr grep rg
+abbr ls eza
+abbr rg "rg -uuu -L"
 abbr cd z
 abbr fd "fd -I"
 abbr la "ls -a"
