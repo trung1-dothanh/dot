@@ -141,3 +141,4 @@ if [ -n "${ZSH_VERSION-}" ] && { [ -e /run/.containerenv ] || [ -e /.dockerenv ]
 fi
 
 export PROMPT_DIRTRIM=3
+export UID

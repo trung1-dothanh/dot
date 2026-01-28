@@ -101,5 +101,24 @@
 		"key": "f5",
 		"command": "-workbench.action.debug.start",
 		"when": "debuggersAvailable && debugState == 'inactive'"
-	}
+	},
+	{
+		"key": "right",
+		"command": "editor.action.inlineSuggest.commit",
+		"when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus"
+	},
+	{
+		"key": "tab",
+		"command": "-editor.action.inlineSuggest.commit",
+		"when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "-git.commitAll",
+		"when": "!inDebugMode && !operationInProgress && !terminalFocus"
+	},
+	{
+		"key": "shift+alt+insert",
+		"command": "editor.action.toggleColumnSelection"
+	},
 ]
